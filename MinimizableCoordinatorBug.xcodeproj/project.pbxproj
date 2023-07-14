@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		B15F410F2A619F6300004C7D /* MinimizableCoordinatorBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F410E2A619F6300004C7D /* MinimizableCoordinatorBugApp.swift */; };
-		B15F41112A619F6300004C7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F41102A619F6300004C7D /* ContentView.swift */; };
+		B15F41112A619F6300004C7D /* MinimizableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F41102A619F6300004C7D /* MinimizableScreen.swift */; };
 		B15F41132A619F6700004C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15F41122A619F6700004C7D /* Assets.xcassets */; };
 		B15F41162A619F6700004C7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15F41152A619F6700004C7D /* Preview Assets.xcassets */; };
+		B15F411D2A619F7D00004C7D /* Minimizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F411C2A619F7D00004C7D /* Minimizable.swift */; };
+		B15F41202A619FEA00004C7D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B15F411F2A619FEA00004C7D /* ComposableArchitecture */; };
+		B15F41232A61A08500004C7D /* TCACoordinators in Frameworks */ = {isa = PBXBuildFile; productRef = B15F41222A61A08500004C7D /* TCACoordinators */; };
+		B15F41252A61A18E00004C7D /* CustomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F41242A61A18E00004C7D /* CustomNavigation.swift */; };
+		B15F41272A61B3B000004C7D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F41262A61B3B000004C7D /* Extensions.swift */; };
+		B15F41292A61B3DD00004C7D /* LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F41282A61B3DD00004C7D /* LandingScreen.swift */; };
+		B15F412B2A61B44900004C7D /* MultiScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F412A2A61B44900004C7D /* MultiScreenCoordinator.swift */; };
+		B15F412D2A61B47900004C7D /* CoordinatedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F412C2A61B47900004C7D /* CoordinatedScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B15F410B2A619F6300004C7D /* MinimizableCoordinatorBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimizableCoordinatorBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15F410E2A619F6300004C7D /* MinimizableCoordinatorBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimizableCoordinatorBugApp.swift; sourceTree = "<group>"; };
-		B15F41102A619F6300004C7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B15F41102A619F6300004C7D /* MinimizableScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimizableScreen.swift; sourceTree = "<group>"; };
 		B15F41122A619F6700004C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B15F41152A619F6700004C7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B15F411C2A619F7D00004C7D /* Minimizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minimizable.swift; sourceTree = "<group>"; };
+		B15F41242A61A18E00004C7D /* CustomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigation.swift; sourceTree = "<group>"; };
+		B15F41262A61B3B000004C7D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B15F41282A61B3DD00004C7D /* LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen.swift; sourceTree = "<group>"; };
+		B15F412A2A61B44900004C7D /* MultiScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiScreenCoordinator.swift; sourceTree = "<group>"; };
+		B15F412C2A61B47900004C7D /* CoordinatedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatedScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15F41232A61A08500004C7D /* TCACoordinators in Frameworks */,
+				B15F41202A619FEA00004C7D /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				B15F410E2A619F6300004C7D /* MinimizableCoordinatorBugApp.swift */,
-				B15F41102A619F6300004C7D /* ContentView.swift */,
+				B15F41102A619F6300004C7D /* MinimizableScreen.swift */,
+				B15F412A2A61B44900004C7D /* MultiScreenCoordinator.swift */,
+				B15F412C2A61B47900004C7D /* CoordinatedScreen.swift */,
+				B15F41282A61B3DD00004C7D /* LandingScreen.swift */,
+				B15F41242A61A18E00004C7D /* CustomNavigation.swift */,
+				B15F411C2A619F7D00004C7D /* Minimizable.swift */,
+				B15F41262A61B3B000004C7D /* Extensions.swift */,
 				B15F41122A619F6700004C7D /* Assets.xcassets */,
 				B15F41142A619F6700004C7D /* Preview Content */,
 			);
@@ -83,6 +105,10 @@
 			dependencies = (
 			);
 			name = MinimizableCoordinatorBug;
+			packageProductDependencies = (
+				B15F411F2A619FEA00004C7D /* ComposableArchitecture */,
+				B15F41222A61A08500004C7D /* TCACoordinators */,
+			);
 			productName = MinimizableCoordinatorBug;
 			productReference = B15F410B2A619F6300004C7D /* MinimizableCoordinatorBug.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,10 @@
 				Base,
 			);
 			mainGroup = B15F41022A619F6300004C7D;
+			packageReferences = (
+				B15F411E2A619FEA00004C7D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				B15F41212A61A08500004C7D /* XCRemoteSwiftPackageReference "TCACoordinators" */,
+			);
 			productRefGroup = B15F410C2A619F6300004C7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15F41112A619F6300004C7D /* ContentView.swift in Sources */,
+				B15F41272A61B3B000004C7D /* Extensions.swift in Sources */,
+				B15F41292A61B3DD00004C7D /* LandingScreen.swift in Sources */,
+				B15F41252A61A18E00004C7D /* CustomNavigation.swift in Sources */,
+				B15F41112A619F6300004C7D /* MinimizableScreen.swift in Sources */,
+				B15F411D2A619F7D00004C7D /* Minimizable.swift in Sources */,
+				B15F412B2A61B44900004C7D /* MultiScreenCoordinator.swift in Sources */,
+				B15F412D2A61B47900004C7D /* CoordinatedScreen.swift in Sources */,
 				B15F410F2A619F6300004C7D /* MinimizableCoordinatorBugApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +375,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B15F411E2A619FEA00004C7D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = exactVersion;
+				version = 0.55.1;
+			};
+		};
+		B15F41212A61A08500004C7D /* XCRemoteSwiftPackageReference "TCACoordinators" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/TCACoordinators";
+			requirement = {
+				kind = exactVersion;
+				version = 0.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B15F411F2A619FEA00004C7D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B15F411E2A619FEA00004C7D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		B15F41222A61A08500004C7D /* TCACoordinators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B15F41212A61A08500004C7D /* XCRemoteSwiftPackageReference "TCACoordinators" */;
+			productName = TCACoordinators;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B15F41032A619F6300004C7D /* Project object */;
 }
